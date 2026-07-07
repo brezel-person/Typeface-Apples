@@ -1,0 +1,72 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+    <button id="homeBtn">Leave Quiz</button>
+    <div class="container">
+    <div>
+        <h1> Welcome to the Apple Quiz! </h1>
+        <h2> Here, you will find out what your Spirit Apple is. Are you ready to know the truth? </h1>
+        <div class="centerBtn">
+            <button> Yes, absolutely!! </button>
+            <button id="truthBtn"> *Looks around nervously* "The truth?" </button>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="appleQuizPopUp" tabindex="-1" aria-labelledby="appleQuizPopUpLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="appleQuizPopUpLabel"> Have no fear</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="magentaTxt"> The truth of what apple resonates the most with you is within reach. 
+                        <br> This quiz will allow you to experience it. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1> Is your vibe... </h1>
+        <div>
+            <button> kind? </button>
+            <button> mysterious? </button>
+            <button> 67? </button>
+        </div>
+    </div>
+    <div>
+        <h1> Would you rather... </h1>
+        <div>
+            <button> Be too cold </button>
+            <button> Be too warm </button>
+            <button> Go to school </button>
+        </div>
+    </div>
+    <div>
+        <h1>Favorite Fruit</h1>
+        <div>
+            <button>Apples!</button>
+            <br>
+            <button> PineApple </button>
+            <br>
+            <button>Something else</button>
+        </div>
+    </div>
+    <div>
+        <h1> Your spirit apple is... </h1>
+        <img alt="Your spirit apple">
+        <p></p>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
