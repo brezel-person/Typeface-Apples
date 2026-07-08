@@ -1,4 +1,13 @@
+@font-face {
+    font-family:"spiral-font";
+    src: url("fonts/spiral-font.ttf") format("truetype");
+}
 
+.spiral-font{
+    font-family: "spiral-font", serif;
+}
+
+/* Home page and multi-page styling */
 .green-page{
     background-color:darkolivegreen;
 }
@@ -19,6 +28,115 @@
 }
 
 .photo{
+    display:block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20pt;
+    border-width: 5pt;
+    border-color: darkgoldenrod;
+    border-style: double;
+}
+
+
+
+/* Text! */
+
+
+.darkgold{
+    font-family: "spiral-font";
+    color: goldenrod;
+}
+
+h2.darkgold{
+    display: block;
+    font-family: "spiral-font", serif;
+    color: goldenrod;
+    font-size: 38pt;
+    margin-left: 30pt;
+}
+
+h1.darkgold{
+    font-size: 70pt;
+    font-family: "spiral-font", serif;
+    color: goldenrod;
+}
+
+h1.darkgreen{
+    font-size: 50pt;
+    font-family: "spiral-font", serif;
+    color: darkolivegreen;
+}
+
+h2.lightgreen{
+    font-size: 50pt;
+    font-family: "spiral-font", serif;
+    color: darkseagreen;
+}
+
+h2.darkgreen{
+    display: block;
+    font-family: "spiral-font", serif;
+    color: darkolivegreen;
+    font-size: 38pt;
+    margin-left: 30pt;
+}
+
+p.darkgreen{
+    font-size: 20pt;
+    font-family: "spiral-font", serif;
+    color: darkolivegreen;
+}
+
+/* Buttons */
+
+
+.greenBtn{
+    display: inline-block;
+    background-color: darkolivegreen !important;
+    font-family: "spiral-font", serif;
+    color: goldenrod;
+    font-size: 20pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+.quizBtn{
+    display: inline-block;
+    background-color: darkolivegreen !important;
+    font-family: "spiral-font", serif;
+    color: darkseagreen;
+    font-size: 20pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+.quizBtn2{
+    display: inline-block;
+    background-color: darkseagreen;
+    font-family: "spiral-font", serif;
+    color: darkolivegreen ;
+    font-size: 20pt;
+    margin-left: 20pt;
+    margin-right: 5pt;
+}
+
+.goldBtn{
+    display: inline-block;
+    color:darkolivegreen;
+    background-color: goldenrod;
+    font-family: "spiral-font", serif;
+    font-size: 20pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+/* Memory Game */
+
+
+/* Quiz */
+
+.quizImg{
     display:block;
     width: 50%;
     height: auto;

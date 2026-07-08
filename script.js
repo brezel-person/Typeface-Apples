@@ -34,3 +34,20 @@ $(document).ready(function(){
     $('#truthBtn').click(() => appleQuizPopUp.show());
 });
 
+
+
+
+/* Memory Game Functionality */
+
+let symbols = [
+    "game-images/apple.jpg", "game-images/apple.jpg",
+    "game-images/basket.jpg", "game-images/basket.jpg",
+    "game-images/blossom.jpg", "game-images/blossom.jpg",
+    "game-images/harvest.jpg", "game-images/harvest.jpg",
+    "game-images/juice.jpg", "game-images/juice.jpg",
+    "game-images/pie.jpg", "game-images/pie.jpg"
+];
+
+
+
+
