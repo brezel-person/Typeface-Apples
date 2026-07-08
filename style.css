@@ -1,0 +1,26 @@
+
+.green-page{
+    background-color:darkolivegreen;
+}
+
+.lightgreen-page{
+    background-color:darkseagreen;
+}
+
+.gold-page{
+    background-color:goldenrod;
+}
+.darkgold-page{
+    background-color:darkgoldenrod;
+}
+
+.center{
+    text-align: center;
+}
+
+.photo{
+    display:block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
