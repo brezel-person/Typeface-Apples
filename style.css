@@ -95,7 +95,6 @@ h5.apple{
     color:brown;
 }
 h3.apple{
-    text-align: center;
     font-size: 30pt;
     font-family: "spiral-font", serif;
     color:brown;
@@ -149,6 +148,18 @@ p.apple{
     margin-left: 5pt;
     margin-right: 5pt;
 }
+
+.appleBtn{
+    display: inline-block;
+    background-color: brown !important;
+    font-family: "spiral-font", serif;
+    color: goldenrod;
+    font-size: 20pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+
 
 /* Memory Game */
 

@@ -19,12 +19,10 @@
             <h2 class="green-page lightgreen"> Here, you will find out what your Spirit Apple is. Are you ready to know the truth? </h2>
             <br>
             <div class="center">
-                <button class="quizBtn"> Yes, absolutely!! </button>
+                <button id="startBtn" class="quizBtn"> Yes, absolutely!! </button>
                 <button id="truthBtn" class="quizBtn"> *Looks around nervously* "The truth?" </button>
             </div>
-            <br>
-            <br>
-            <br>
+            <br> <br> <br>
         </div>
 
         <div class="modal fade" id="appleQuizPopUp" tabindex="-1" aria-labelledby="appleQuizPopUpLabel"
@@ -49,35 +47,48 @@
         </div>
 
         <div id="q1" style="display:none">
-            <h1> Is your vibe... </h1>
-            <div>
-                <button> kind? </button>
-                <button> mysterious? </button>
-                <button> 67? </button>
+            <br><br>
+            <h1 class="center darkgreen"> Is your vibe... </h1>
+            <br><br>
+            <div class="center">
+                <button class="quizBtn"> kind? </button>
+                <button class="quizBtn2"> mysterious? </button>
+                <button class="quizBtn"> 67? </button>
             </div>
+            <br><br><br><br>
         </div>
         <div id="q2" style="display:none">
-            <h1> Would you rather... </h1>
-            <div>
-                <button> Be too cold </button>
-                <button> Be too warm </button>
-                <button> Go to school </button>
+            <br><br><br><br>
+            <h1 class="center darkgreen"> Would you rather... </h1>
+            <br><br>
+            <div class="center">
+                <button class="quizBtn2"> Be too cold </button>
+                <button class="quizBtn"> Be too warm </button>
+                <button class="quizBtn2"> Go to school </button>
             </div>
+            <br><br><br><br>
         </div>
         <div id="q3" style="display:none">
-            <h1>Favorite Fruit</h1>
-            <div>
-                <button>Apples!</button>
-                <br>
-                <button> PineApple </button>
-                <br>
-                <button>Something else</button>
+            <br><br>
+            <h1 class="center darkgreen">Favorite Fruit</h1>
+            <br><br><br><br>
+            <div class="center">
+                <button class="quizBtn" >Apples!</button>
+                <button class="quizBtn2"> PineApple </button>
+                <button class="quizBtn">Something else</button>
             </div>
+            <br><br><br><br>
         </div>
         <div id="result" style="display:none">
-            <h1> Your spirit apple is... </h1>
-            <img alt="Your spirit apple">
-            <p></p>
+            <br><br>
+            <h1 class="center darkgreen"> Your spirit apple is... </h1>
+            <br><br>
+            <h1 id="spiritAppleName"> </h1>
+            <br>
+            <img id="spiritAppleImg" alt="Your spirit apple">
+            <br><br>
+            <p id="spiritAppleDesc"></p>
+            <br><br><br><br>
         </div>
     </div>
     <script src="script.js"></script>

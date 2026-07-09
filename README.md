@@ -5,6 +5,8 @@ What I've learned:
 - How to use cards from the Bootstrap library
 - Solidified some of the knowledge I've gained from my previous project, namely how to write simple code in html, and JS (ex: how to make buttons work, how to make a modal from the bootstrap library work)
 - Learned how to use random number generation and take user input
+- Refreshed on operators
+- Learned more about using functions
 
 Challenges:
 - Figuring out how I want to make the memory game work
