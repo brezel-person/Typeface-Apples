@@ -1,7 +1,42 @@
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="darkgold-page">
     <button id="homeBtn" class="greenBtn">Back</button>
+    <br><br>
+    <div class="container center gold-page">
+        <h1 class="darkgreen"> Welcome to Apple Paper Scissors!</h1>
+        <br><br>
+        <div>
+            <h3 class="apple center"> Rules: Apple beats scissors, scissors beat paper, paper beats apple. </h5>
+            <br>
+            <h3 class="apple center"> Make your choice!</h5>
+            <br><br>
+            <button class="choice" data-choice="apple">
+                <img  class="choiceImg"src="game-images/applePaper.webp" alt="Apple!">
+            </button>
+            <button class="choice" data-choice="paper">
+                <img class="choiceImg" src="game-images/paper.webp" alt="Paper!">
+            </button>
+            <button class="choice" data-choice="scissors">
+                <img class="choiceImg" src="game-images/scissors.png" alt="Scissors!">
+            </button>
+            <br><br>
+            <p class="apple"> You chose: 
+                <span id="playerChoice"></span>
+            </p>
+            <br>
+            <p class="apple"> The computer chose:
+                <span id="compChoice"></span>
+            </p>
+        </div>
+        <br><br><br><br>
+    </div>
+    <br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>

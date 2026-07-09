@@ -49,5 +49,14 @@ let symbols = [
 ];
 
 
+/* Apple Paper Scissors Functionality! */
+const choices = ["apple", "paper", "scissors"];
 
+$(".choice").click(function(){
+    let playerChoice = $(this).data("choice");
+    let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+
+    $("#playerChoice").text(playerChoice);
+    $("#compChoice").text(computerChoice);
+});
 
