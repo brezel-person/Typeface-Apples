@@ -94,6 +94,13 @@ h5.apple{
     font-family: "spiral-font", serif;
     color:brown;
 }
+
+h1.apple{
+    font-size: 40pt;
+    font-family: "spiral-font", serif;
+    color:brown;
+}
+
 h3.apple{
     font-size: 30pt;
     font-family: "spiral-font", serif;
@@ -172,6 +179,14 @@ p.apple{
     height: auto;
     margin: 0 auto;
 }
+
+.quizImg2{
+    display:block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
 
 /* Apple Paper Scissors! */
 
